@@ -81,3 +81,74 @@ body {
   font-size: 10.24px;
   line-height: 150%;
 }
+
+@media screen and (max-width:415px){
+  .header{
+    min-width: 400px;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    min-width: 350px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+
+  .card img{
+    width: 320px;
+    height: 200px;
+    margin-left: -8px;
+    border-radius: 5px;
+  }
+  
+  .first{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.17em;
+    margin-top: 10px;
+  }
+  
+  .first i{
+    color: #F55A5A;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .first p{
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .first a{
+    color: #918E9B;
+    font-size: 13px;
+    letter-spacing: 0;
+  }
+  .second{
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .third{
+    margin-top: 0px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 12px;
+    text-align: center;
+  }
+  .fourth{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+

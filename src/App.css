@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: 'Poppins',sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  min-width: 550px;
+  height: 55px;
+  background: #F55A5A;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  gap:10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header i{
+  font-size: 25px;  
+  color: #DADADA;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  min-width: 470px;
+  height: 168px;
+  /* background: red; */
+  display: flex;
+  padding: 20px;
+  margin: 30px;
+}
+
+
+.card img{
+  width: 125px;
+  height: 168px;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+
+.first{
+  display: flex;
+  align-items: center;
+  gap:12px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.first i{
+  color: #F55A5A;
+  font-size: 15px;
+  margin-right: -10px;
+}
+
+.first p{
+  font-weight: 700;
+  font-size: 13px;
+}
+.first a{
+  color: #918E9B;
+}
+.second{
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.third{
+  margin-top: 0px;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+.fourth{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
 }
